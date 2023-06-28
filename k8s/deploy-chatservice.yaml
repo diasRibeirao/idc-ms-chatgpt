@@ -48,7 +48,7 @@ spec:
     spec: 
       containers:
         - name: chatservice
-          image: fabricioveronez/imersao-chatservice:v1
+          image: emersondiaspd/imersao-chatservice:v1
           ports:
           - containerPort: 8080
             name: http
